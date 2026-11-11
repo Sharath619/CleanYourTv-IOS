@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE1B64275D5AB3B69E774853 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32195BE61D8CF565C84DC99D /* AppViewModel.swift */; };
+		1CE2BBB1AB55AF46539D3B31 /* CleanYourTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2BB0F30A7216591006465 /* CleanYourTVApp.swift */; };
+		70EE588C003629B12094698A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC244FE3B63DFF710117B7 /* ContentView.swift */; };
+		417E72435B145113ABDE16F3 /* ControlsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F7CCBD5CC5D32C0BBF0AA7 /* ControlsTabView.swift */; };
+		FC6A46A4E036C1506EAD0399 /* CropStudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04508D760EE19DFC69045C33 /* CropStudioView.swift */; };
+		135D11041F51BDE38C72CB98 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6ABC622C8A615B5E97F17 /* DesignSystem.swift */; };
+		FF7839C5BECFE48A9982ECB8 /* GradientRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF08EF3657B7357823A6D8F2 /* GradientRenderer.swift */; };
+		085BE299D5D10D0844F0C221 /* GradientStudioSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56B9A0EED705AAD87E18DE5 /* GradientStudioSheet.swift */; };
+		549398B4327C04A7849DBB57 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE027C82881CE21C0C5FCE40 /* ImageProcessor.swift */; };
+		2CDD8434413F4FB38092BB27 /* LocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA8AA31F495E25A0F207697 /* LocalStore.swift */; };
+		BA6FE2EC1562EB2EFF447CDA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0C8FAFE1B09544C5912233 /* Models.swift */; };
+		A4B6DD7023DD24A6A2500DD8 /* StudioTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EE4782ED4440398463B4CF /* StudioTabView.swift */; };
+		F6F9A4A7C1041E6B2387FF8B /* ThemePreviewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CB4EC905B9E4462C27484E /* ThemePreviewSheet.swift */; };
+		AD7D9494BBFB3B0D128D5E33 /* ThemesTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D516116299B06A28DE94388F /* ThemesTabView.swift */; };
+		045F03DA5813866AEFEEC32E /* TvClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1807DE70DDE8530233C2DDA0 /* TvClient.swift */; };
+		D003F4E5F08392FE1B582920 /* TvConnectSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C2ACCF02F0C6563CFE525 /* TvConnectSheet.swift */; };
+		CE1B74F2A6ECB34B0EC066F0 /* TvGuideOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB0CEDC99581BD8B1D1AE24 /* TvGuideOverlayView.swift */; };
+		B8AC1D188E57AAA305899A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B04B2273026590A440D27C9 /* Assets.xcassets */; };
+		5ACEDAB24075F97CF08083FB /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA765AEE297B92182CAD9A96 /* OFL.txt */; };
+		1DCA4E6555C48C98815FBF7D /* outfit_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92126960C2D8A70F73805592 /* outfit_light.ttf */; };
+		941B89A14734F041D828071A /* outfit_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39F529F75F53C2F909F867C /* outfit_medium.ttf */; };
+		B15018EFD803C61E589FAE4B /* outfit_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBD1B0DB57BC23B070E367B3 /* outfit_regular.ttf */; };
+		D883AAF984518CD481C224B4 /* themes in Resources */ = {isa = PBXBuildFile; fileRef = D36051B405ECA5EA38B72A09 /* themes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32195BE61D8CF565C84DC99D /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		3AA2BB0F30A7216591006465 /* CleanYourTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanYourTVApp.swift; sourceTree = "<group>"; };
+		D3CC244FE3B63DFF710117B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91F7CCBD5CC5D32C0BBF0AA7 /* ControlsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsTabView.swift; sourceTree = "<group>"; };
+		04508D760EE19DFC69045C33 /* CropStudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropStudioView.swift; sourceTree = "<group>"; };
+		F6A6ABC622C8A615B5E97F17 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		EF08EF3657B7357823A6D8F2 /* GradientRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRenderer.swift; sourceTree = "<group>"; };
+		E56B9A0EED705AAD87E18DE5 /* GradientStudioSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientStudioSheet.swift; sourceTree = "<group>"; };
+		EE027C82881CE21C0C5FCE40 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		EFA8AA31F495E25A0F207697 /* LocalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStore.swift; sourceTree = "<group>"; };
+		1B0C8FAFE1B09544C5912233 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		63EE4782ED4440398463B4CF /* StudioTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioTabView.swift; sourceTree = "<group>"; };
+		62CB4EC905B9E4462C27484E /* ThemePreviewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePreviewSheet.swift; sourceTree = "<group>"; };
+		D516116299B06A28DE94388F /* ThemesTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesTabView.swift; sourceTree = "<group>"; };
+		1807DE70DDE8530233C2DDA0 /* TvClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvClient.swift; sourceTree = "<group>"; };
+		815C2ACCF02F0C6563CFE525 /* TvConnectSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvConnectSheet.swift; sourceTree = "<group>"; };
+		FEB0CEDC99581BD8B1D1AE24 /* TvGuideOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvGuideOverlayView.swift; sourceTree = "<group>"; };
+		1507F021100E808DBE2FAA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B04B2273026590A440D27C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA765AEE297B92182CAD9A96 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		92126960C2D8A70F73805592 /* outfit_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = outfit_light.ttf; sourceTree = "<group>"; };
+		B39F529F75F53C2F909F867C /* outfit_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = outfit_medium.ttf; sourceTree = "<group>"; };
+		BBD1B0DB57BC23B070E367B3 /* outfit_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = outfit_regular.ttf; sourceTree = "<group>"; };
+		D36051B405ECA5EA38B72A09 /* themes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = themes; sourceTree = "<group>"; };
+		18F3B2DE9C2392DDAF269F19 /* CleanYourTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanYourTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8003021206097066E984FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADCF10F76EBF2A74473E9DC4 = {
+			isa = PBXGroup;
+			children = (
+				29D7BCD9953CD04223980F08 /* CleanYourTV */,
+				5151B46607EBC8890D8DFCC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5151B46607EBC8890D8DFCC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F3B2DE9C2392DDAF269F19 /* CleanYourTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29D7BCD9953CD04223980F08 /* CleanYourTV */ = {
+			isa = PBXGroup;
+			children = (
+				32195BE61D8CF565C84DC99D /* AppViewModel.swift */,
+				3AA2BB0F30A7216591006465 /* CleanYourTVApp.swift */,
+				D3CC244FE3B63DFF710117B7 /* ContentView.swift */,
+				91F7CCBD5CC5D32C0BBF0AA7 /* ControlsTabView.swift */,
+				04508D760EE19DFC69045C33 /* CropStudioView.swift */,
+				F6A6ABC622C8A615B5E97F17 /* DesignSystem.swift */,
+				EF08EF3657B7357823A6D8F2 /* GradientRenderer.swift */,
+				E56B9A0EED705AAD87E18DE5 /* GradientStudioSheet.swift */,
+				EE027C82881CE21C0C5FCE40 /* ImageProcessor.swift */,
+				EFA8AA31F495E25A0F207697 /* LocalStore.swift */,
+				1B0C8FAFE1B09544C5912233 /* Models.swift */,
+				63EE4782ED4440398463B4CF /* StudioTabView.swift */,
+				62CB4EC905B9E4462C27484E /* ThemePreviewSheet.swift */,
+				D516116299B06A28DE94388F /* ThemesTabView.swift */,
+				1807DE70DDE8530233C2DDA0 /* TvClient.swift */,
+				815C2ACCF02F0C6563CFE525 /* TvConnectSheet.swift */,
+				FEB0CEDC99581BD8B1D1AE24 /* TvGuideOverlayView.swift */,
+				1507F021100E808DBE2FAA00 /* Info.plist */,
+				5B04B2273026590A440D27C9 /* Assets.xcassets */,
+				A024F06580C79B7582C3806A /* Resources */,
+			);
+			path = CleanYourTV;
+			sourceTree = "<group>";
+		};
+		A024F06580C79B7582C3806A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF15CBD88CC76023179818 /* Fonts */,
+				D36051B405ECA5EA38B72A09 /* themes */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BBF15CBD88CC76023179818 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AA765AEE297B92182CAD9A96 /* OFL.txt */,
+				92126960C2D8A70F73805592 /* outfit_light.ttf */,
+				B39F529F75F53C2F909F867C /* outfit_medium.ttf */,
+				BBD1B0DB57BC23B070E367B3 /* outfit_regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD92B444A5559484AA81A40 /* CleanYourTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28A2B497FA98060CD1B56AC /* Build configuration list for PBXNativeTarget "CleanYourTV" */;
+			buildPhases = (
+				28BE49E1E42D704C38EEA420 /* Sources */,
+				CA8003021206097066E984FF /* Frameworks */,
+				E26E44B743A848DED8844ED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleanYourTV;
+			productName = CleanYourTV;
+			productReference = 18F3B2DE9C2392DDAF269F19 /* CleanYourTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50BB7FB0E188D6F864304624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DBD92B444A5559484AA81A40 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 3D29D9F3A882C4202964FB56 /* Build configuration list for PBXProject "CleanYourTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADCF10F76EBF2A74473E9DC4;
+			productRefGroup = 5151B46607EBC8890D8DFCC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD92B444A5559484AA81A40 /* CleanYourTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26E44B743A848DED8844ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8AC1D188E57AAA305899A40 /* Assets.xcassets in Resources */,
+				5ACEDAB24075F97CF08083FB /* OFL.txt in Resources */,
+				1DCA4E6555C48C98815FBF7D /* outfit_light.ttf in Resources */,
+				941B89A14734F041D828071A /* outfit_medium.ttf in Resources */,
+				B15018EFD803C61E589FAE4B /* outfit_regular.ttf in Resources */,
+				D883AAF984518CD481C224B4 /* themes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28BE49E1E42D704C38EEA420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1B64275D5AB3B69E774853 /* AppViewModel.swift in Sources */,
+				1CE2BBB1AB55AF46539D3B31 /* CleanYourTVApp.swift in Sources */,
+				70EE588C003629B12094698A /* ContentView.swift in Sources */,
+				417E72435B145113ABDE16F3 /* ControlsTabView.swift in Sources */,
+				FC6A46A4E036C1506EAD0399 /* CropStudioView.swift in Sources */,
+				135D11041F51BDE38C72CB98 /* DesignSystem.swift in Sources */,
+				FF7839C5BECFE48A9982ECB8 /* GradientRenderer.swift in Sources */,
+				085BE299D5D10D0844F0C221 /* GradientStudioSheet.swift in Sources */,
+				549398B4327C04A7849DBB57 /* ImageProcessor.swift in Sources */,
+				2CDD8434413F4FB38092BB27 /* LocalStore.swift in Sources */,
+				BA6FE2EC1562EB2EFF447CDA /* Models.swift in Sources */,
+				A4B6DD7023DD24A6A2500DD8 /* StudioTabView.swift in Sources */,
+				F6F9A4A7C1041E6B2387FF8B /* ThemePreviewSheet.swift in Sources */,
+				AD7D9494BBFB3B0D128D5E33 /* ThemesTabView.swift in Sources */,
+				045F03DA5813866AEFEEC32E /* TvClient.swift in Sources */,
+				D003F4E5F08392FE1B582920 /* TvConnectSheet.swift in Sources */,
+				CE1B74F2A6ECB34B0EC066F0 /* TvGuideOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		855D4B0C75ECD556474FD8F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E74312DBBD620AE1CB5D771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112DB64EE5DD2663C7F9CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CleanYourTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gathin.cleanyourtv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DD7FB0A527F4C0E67C68D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CleanYourTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gathin.cleanyourtv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D29D9F3A882C4202964FB56 /* Build configuration list for PBXProject "CleanYourTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855D4B0C75ECD556474FD8F5 /* Debug */,
+				4E74312DBBD620AE1CB5D771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28A2B497FA98060CD1B56AC /* Build configuration list for PBXNativeTarget "CleanYourTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112DB64EE5DD2663C7F9CA6C /* Debug */,
+				1DD7FB0A527F4C0E67C68D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50BB7FB0E188D6F864304624 /* Project object */;
+}

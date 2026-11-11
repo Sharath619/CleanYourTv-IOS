@@ -1,0 +1,53 @@
+# Builds an unsigned Release iOS IPA of CleanYourTV on GitHub's macOS runner.
+# Trigger manually via Actions > Build CleanYourTV iOS IPA > Run workflow, or automatically on pushes modifying ios-app/.
+name: Build CleanYourTV iOS IPA
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'ios-app/**'
+      - '.github/workflows/build-ios-ipa.yml'
+
+jobs:
+  build-ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check Xcode version
+        run: xcodebuild -version
+
+      - name: Build unsigned Release CleanYourTV.app
+        working-directory: ios-app
+        run: |
+          xcodebuild clean build \
+            -project CleanYourTV.xcodeproj \
+            -scheme CleanYourTV \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            EXPANDED_CODE_SIGN_IDENTITY=""
+
+      - name: Package CleanYourTV-iOS-unsigned.ipa
+        working-directory: ios-app
+        run: |
+          APP_PATH="build/Build/Products/Release-iphoneos/CleanYourTV.app"
+          test -d "$APP_PATH"
+          rm -rf ipa_stage CleanYourTV-iOS-unsigned.ipa
+          mkdir -p ipa_stage/Payload
+          cp -R "$APP_PATH" ipa_stage/Payload/
+          (cd ipa_stage && zip -qry ../CleanYourTV-iOS-unsigned.ipa Payload)
+          ls -lh CleanYourTV-iOS-unsigned.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cleanyourtv-ios-ipa
+          path: ios-app/CleanYourTV-iOS-unsigned.ipa
+          if-no-files-found: error
+

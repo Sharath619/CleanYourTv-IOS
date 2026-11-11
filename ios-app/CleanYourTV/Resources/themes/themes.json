@@ -1,0 +1,256 @@
+[
+  {
+    "id": "the-batman",
+    "title": "The Batman",
+    "category": "Featured",
+    "asset": "themes/the_batman.jpg",
+    "wallpaper": true,
+    "dim": 25,
+    "ambientGlow": false,
+    "accentColor": "#C82829",
+    "backgroundColor": "#0D0E10"
+  },
+  {
+    "id": "spider",
+    "title": "Spider Dark",
+    "category": "Featured",
+    "asset": "themes/spider.jpg",
+    "wallpaper": true,
+    "dim": 25,
+    "ambientGlow": false,
+    "accentColor": "#C82829",
+    "backgroundColor": "#0D0E10"
+  },
+  {
+    "id": "spider-emblem",
+    "title": "Spider Emblem",
+    "category": "Featured",
+    "asset": "themes/spider_emblem.jpg",
+    "wallpaper": true,
+    "dim": 15,
+    "ambientGlow": false,
+    "accentColor": "#E62429",
+    "backgroundColor": "#0A0E14"
+  },
+  {
+    "id": "spider-ink",
+    "title": "Spider Ink Art",
+    "category": "Featured",
+    "asset": "themes/spider_ink.jpg",
+    "wallpaper": true,
+    "dim": 25,
+    "ambientGlow": true,
+    "accentColor": "#D91E2A",
+    "backgroundColor": "#12080A"
+  },
+  {
+    "id": "burgundy",
+    "title": "Burgundy Velvet",
+    "category": "Abstract",
+    "asset": "themes/burgundy.jpg",
+    "wallpaper": true,
+    "dim": 15,
+    "ambientGlow": true,
+    "accentColor": "#9E1B32",
+    "backgroundColor": "#050203"
+  },
+  {
+    "id": "sage-waves",
+    "title": "Sage Waves",
+    "category": "Abstract",
+    "asset": "themes/sage_waves.jpg",
+    "wallpaper": true,
+    "dim": 15,
+    "ambientGlow": true,
+    "accentColor": "#638577",
+    "backgroundColor": "#06100E"
+  },
+  {
+    "id": "aurora",
+    "title": "Aurora Ribbon",
+    "category": "Abstract",
+    "asset": "themes/aurora.jpg",
+    "wallpaper": true,
+    "dim": 15,
+    "ambientGlow": true,
+    "accentColor": "#4DD0E1",
+    "backgroundColor": "#070A14"
+  },
+  {
+    "id": "oled-black",
+    "title": "OLED Pure Black",
+    "category": "Minimal",
+    "asset": "",
+    "wallpaper": false,
+    "dim": 0,
+    "ambientGlow": true,
+    "accentColor": "#FFFFFF",
+    "backgroundColor": "#000000"
+  },
+  {
+    "id": "dussehra",
+    "title": "Festive Gold",
+    "category": "Abstract",
+    "asset": "themes/dussehra.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": true,
+    "accentColor": "#FFB23C",
+    "backgroundColor": "#120809"
+  },
+  {
+    "id": "scene-01",
+    "title": "Dusk Peaks",
+    "category": "Scenic",
+    "asset": "themes/scenes/01-dusk-peaks.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#E57373",
+    "backgroundColor": "#0B0C10"
+  },
+  {
+    "id": "scene-02",
+    "title": "Golden Coast",
+    "category": "Scenic",
+    "asset": "themes/scenes/02-golden-coast.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#FFB74D",
+    "backgroundColor": "#0B0C10"
+  },
+  {
+    "id": "scene-03",
+    "title": "Moon Lake",
+    "category": "Scenic",
+    "asset": "themes/scenes/03-moon-lake.jpg",
+    "wallpaper": true,
+    "dim": 15,
+    "ambientGlow": false,
+    "accentColor": "#64B5F6",
+    "backgroundColor": "#070A12"
+  },
+  {
+    "id": "scene-04",
+    "title": "Polar Aurora",
+    "category": "Scenic",
+    "asset": "themes/scenes/04-aurora.jpg",
+    "wallpaper": true,
+    "dim": 15,
+    "ambientGlow": false,
+    "accentColor": "#4DB6AC",
+    "backgroundColor": "#060C0E"
+  },
+  {
+    "id": "scene-05",
+    "title": "Desert Dunes",
+    "category": "Scenic",
+    "asset": "themes/scenes/05-dunes.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#FF8A65",
+    "backgroundColor": "#100B09"
+  },
+  {
+    "id": "scene-06",
+    "title": "Above the Clouds",
+    "category": "Scenic",
+    "asset": "themes/scenes/06-above-the-clouds.jpg",
+    "wallpaper": true,
+    "dim": 25,
+    "ambientGlow": false,
+    "accentColor": "#90CAF9",
+    "backgroundColor": "#0A0E14"
+  },
+  {
+    "id": "scene-07",
+    "title": "Mirror Lake",
+    "category": "Scenic",
+    "asset": "themes/scenes/07-mirror-lake.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#80CBC4",
+    "backgroundColor": "#080D0F"
+  },
+  {
+    "id": "scene-08",
+    "title": "Tea Hills",
+    "category": "Scenic",
+    "asset": "themes/scenes/08-tea-hills.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#81C784",
+    "backgroundColor": "#070E09"
+  },
+  {
+    "id": "scene-09",
+    "title": "Alpenglow",
+    "category": "Scenic",
+    "asset": "themes/scenes/09-alpenglow.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#F06292",
+    "backgroundColor": "#0E090D"
+  },
+  {
+    "id": "scene-10",
+    "title": "City Lights",
+    "category": "Scenic",
+    "asset": "themes/scenes/10-city-lights.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#FFD54F",
+    "backgroundColor": "#08090C"
+  },
+  {
+    "id": "scene-11",
+    "title": "Balloon Sunrise",
+    "category": "Scenic",
+    "asset": "themes/scenes/11-balloon-sunrise.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#FFB74D",
+    "backgroundColor": "#0E0B09"
+  },
+  {
+    "id": "scene-12",
+    "title": "Monsoon Mist",
+    "category": "Scenic",
+    "asset": "themes/scenes/12-monsoon.jpg",
+    "wallpaper": true,
+    "dim": 15,
+    "ambientGlow": false,
+    "accentColor": "#4DD0E1",
+    "backgroundColor": "#070C0E"
+  },
+  {
+    "id": "scene-13",
+    "title": "Lighthouse Coast",
+    "category": "Scenic",
+    "asset": "themes/scenes/13-lighthouse-coast.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#90A4AE",
+    "backgroundColor": "#090B0E"
+  },
+  {
+    "id": "scene-14",
+    "title": "Autumn Valley",
+    "category": "Scenic",
+    "asset": "themes/scenes/14-autumn-valley.jpg",
+    "wallpaper": true,
+    "dim": 20,
+    "ambientGlow": false,
+    "accentColor": "#E64A19",
+    "backgroundColor": "#0F0A08"
+  }
+]
+
